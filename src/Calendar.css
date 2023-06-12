@@ -1,0 +1,57 @@
+.calendar {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 5px;
+  margin-bottom: 10px;
+}
+
+.day {
+  background-color: #f5f5f5;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 5px;
+}
+
+.date {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.date span {
+  display: block;
+  font-size: 20px;
+}
+
+.date:hover {
+  background-color: #ddd;
+}
+
+.date span:hover {
+  cursor: pointer;
+}
+
